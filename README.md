@@ -1,8 +1,10 @@
-# ArtsKey        [![Buymeacoffee](./files/bmc-button-yellow.png)](https://www.buymeacoffee.com/BoyWhileCoding)
-
+# ArtsKey
 [![ArtsKey](./files/icon.ico)](https://www.github.com/BoyWhileCoding/ArtsKey/)
 
+[![Buymeacoffee](./files/bmc-button-yellow.png)](https://www.buymeacoffee.com/BoyWhileCoding)
+
 ArtsKey: Easiest Image to ASCII Conversion Software
+
 ArtsKey was created by BoyWhileCoding At the age of 13
 #
 ArtsKey is a console based program. It is programmed in [python](https://www.python.org).
