@@ -5,9 +5,9 @@
 
 ArtsKey: Easiest Image to ASCII Conversion Software
 
-ArtsKey was created by BoyWhileCoding At the age of 13
+Artskey Converts images to ASCII art very accurately, the length of ASCII charaters in each line is given by the user as 'Image Clearance Level' which includes 5 levels i.e, [128,256,512,1024,2048]. For Live Image to ASCII Conversion(GUI) there is additional level '0.765625' i.e, [98]. For Live Image to ASCII Conversion(CLI) the level is automatically generated according to the number of columns of console
 #
-ArtsKey is a console based program. It is programmed in [python](https://www.python.org).
+ArtsKey is programmed in [python](https://www.python.org).
 
 ![starting](https://user-images.githubusercontent.com/89507875/176726997-748142d1-abd2-4ddc-9491-95f8f17b38e0.png)
 
