@@ -106,4 +106,16 @@ CLI: The fifth command converts example image to ASCII art, to the levels given 
 CLI: The fourth command exits the program
 
 Releases:
-[Version 1.4.0'1.0.0]()
+<table>
+  <tr>
+    <th>Version</th>
+    <td>1.4.0'1.0.0</td>
+  </tr>
+  <tr>
+    <th>Link
+    <td>https://github.com/BoyWhileCoding/ArtsKey/releases/tag/1.4.0</td>
+  </tr>
+</table>
+
+Support me:
+[![Buymeacoffee](./files/bmc-button-yellow.png)](https://www.buymeacoffee.com/BoyWhileCoding)
