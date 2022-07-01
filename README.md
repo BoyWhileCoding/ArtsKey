@@ -64,6 +64,46 @@ As the default Image Clearance Level is already set to 2, we'll leave it as it i
 
 After a few moments the Image Path entry is empty and the statusbox says 'Done', which depicts that the Conversion is sucessful
 
+![result_lvl_2](./files/results/example_ascii_art_level_2.png)
+
 Now, we open {The path to ArtsKey.exe}/files/results/, there is a new file named 'example_ascii_art_level_2.png'
 
-![result_lvl_2](./files/results/example_ascii_art_level_2.png)
+![gui_f](https://user-images.githubusercontent.com/89507875/176830900-43530ff5-bac1-48df-a5b7-e3c9a187782b.png)
+
+When we click the second Tab 'ArtsKey Camera', the the contents changes, a bigger black box appears with the level options.
+This box contains live converted ASCII art. The level '0.765625' shows the Image-less conversion at 98px/line, because there is no image process involved, the conversion is ~90% faster than other levels.
+
+![gui_g](https://user-images.githubusercontent.com/89507875/176831356-5822a506-05cd-458a-a569-a918b324a244.png)
+
+The Third and the lase tab, with title "Created By BoyWhileCoding" displays the release notes and my BMC and Github links
+
+![cli_a](https://user-images.githubusercontent.com/89507875/176835805-8136c9ab-1b87-49d2-9e8d-22f81b60c74b.png)
+
+CLI: The second command in CLI is 'convert', which Takes 'Path to image', 'Image Clearance Level' and choice to create ASCII Image or the ASCII HTML page.
+When the conversion is complete, we get '[Debug]> Done' as debug, the result image and HTML page is stored in {The path to ArtsKey.exe}/files/results/.
+
+![image.tests.png result](./files/results/image.tests_ascii_art_level_2.png)
+[image.tests.html result](./files/results/image.tests_ascii_art_level_2.html)
+
+CLI: The Third command in CLI is 'live convert'(or convert live) or 'camera'. It starts a command line camera session.
+
+![cli_b](https://user-images.githubusercontent.com/89507875/176835922-6a2dbbbe-41a8-49d6-8457-67ab5d20e519.png)
+
+We get a Note, saying to press ctrl+c to end the camera session.
+
+![cli_c](https://user-images.githubusercontent.com/89507875/176835941-f0080036-f3bc-4897-a20a-6cddf0306e1f.png)
+
+After a few seconds the art shows up, updates at ~16fps.
+Result: Constantly captures pictures from the user's camera, then convert it into ASCII art, and displays it into the command prompt(Image-less).
+
+![cli_d](https://user-images.githubusercontent.com/89507875/176835959-dde90b74-e06b-4d31-b7eb-97f0273e4dba.png)
+
+The moment we click ctrl+c, the image disappears, we get '[Debug]> Session ended' as debug.
+
+CLI: The fifth command converts example image to ASCII art, to the levels given by user.
+![cli_e](https://user-images.githubusercontent.com/89507875/176836051-21b2b22e-2f5c-4d63-bb48-4cb093736a60.png)
+
+CLI: The fourth command exits the program
+
+Releases:
+[Version 1.4.0'1.0.0]()
